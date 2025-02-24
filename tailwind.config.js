@@ -6,7 +6,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                "accent": "var(--accent)",
+                accent: "var(--accent)",
                 "base-content": "var(--base-content)",
                 "primary": "var(--primary)",
                 "secondary": "var(--secondary)",
@@ -25,6 +25,15 @@ export default {
     },
     plugins: [require("daisyui")],
     daisyui: {
-        themes: ["light", "dark"],
+        themes: [
+            {
+                light: {
+                    accent: "#FBD144",
+                },
+                dark: {
+                    accent: "#FFE071",
+                },
+            },
+        ],
     },
 };

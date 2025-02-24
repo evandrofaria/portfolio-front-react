@@ -10,12 +10,26 @@
         height: 100vh;
     }
 
-    a {
-        color: var(--accent);
+    .btn-accent {
+        background-color: var(--accent);
+        color: var(--base-300);
+        border-radius: 10px;
+        font-family: theme("fontFamily.sans");
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: -0.5px;
     }
 
-    button {
-        background-color: var(--base-300);
-        color: var(--primary);
+    .btn-neutral {
+        color: var(--secondary);
+        font-family: theme("fontFamily.sans");
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: -0.5px;
+
+        [data-theme="light"] .btn-neutral {
+            background-color: #fff !important;
+        }
     }
+
 }
