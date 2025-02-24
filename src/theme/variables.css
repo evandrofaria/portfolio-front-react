@@ -1,0 +1,19 @@
+/* Definição para todos os temas */
+:root, [data-theme="light"] {
+    --accent: #FBD144;
+    --base-content: #E9EBEC;
+    --neutral: #3D3D3D;
+    --base-300: #19191B;
+    --base-200: #575757;
+    --base-100: #D7D7D7;
+}
+
+/* Definição do modo escuro */
+[data-theme="dark"] {
+    --accent: #FFE071;
+    --base-content: #171F26;
+    --neutral: #F1F2F4;
+    --base-300: #A3ABB2;
+    --base-200: #575757;
+    --base-100: #3D3D3D;
+}

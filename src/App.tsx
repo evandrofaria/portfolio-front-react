@@ -1,14 +1,12 @@
-import './App.css'
+import ThemeToggle from './components/ThemeToogle.tsx';
+
 
 function App() {
-
   return (
-    <>
-      <p className="read-the-docs">
-        Under construction ... 🚧
-      </p>
-    </>
-  )
+   <div className="main-content flex flex-col justify-center">
+      <ThemeToggle />
+   </div>
+  );
 }
 
-export default App
+export default App;

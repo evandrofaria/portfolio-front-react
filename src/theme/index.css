@@ -1,0 +1,24 @@
+@import './variables.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: theme("fontFamily.sans");
+        background: var(--base-content);
+        color: var(--neutral);
+        margin: 32px;
+        height: 100vh;
+    }
+
+    a {
+        color: var(--accent);
+    }
+
+    button {
+        background-color: var(--base-300);
+        color: var(--neutral);
+    }
+}
