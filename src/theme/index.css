@@ -4,12 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+:root {
     html {
         font-family: theme("fontFamily.sans");
-        background: var(--base-content);
-        color: var(--neutral);
-        margin: 32px;
         height: 100vh;
     }
 
@@ -19,6 +16,6 @@
 
     button {
         background-color: var(--base-300);
-        color: var(--neutral);
+        color: var(--primary);
     }
 }

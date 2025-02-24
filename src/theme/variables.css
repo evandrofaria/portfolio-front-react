@@ -1,19 +1,27 @@
-/* Definição para todos os temas */
-:root, [data-theme="light"] {
-    --accent: #FBD144;
-    --base-content: #E9EBEC;
-    --neutral: #3D3D3D;
-    --base-300: #19191B;
-    --base-200: #575757;
-    --base-100: #D7D7D7;
+:root {
+    background-color: var(--base-content) !important;
+    color: var(--primary) !important;
 }
 
-/* Definição do modo escuro */
+[data-theme="light"] {
+    --accent: #FBD144;
+    --base-content: #E9EBEC;
+    --primary: #3D3D3D;
+    --secondary: #575757;
+    --base-300: #3D3D3D;
+    --base-200: #A3ABB2;
+    --base-100: #D7D7D7;
+    --icon-base: #D7D7D7;
+}
+
 [data-theme="dark"] {
     --accent: #FFE071;
-    --base-content: #171F26;
-    --neutral: #F1F2F4;
-    --base-300: #A3ABB2;
-    --base-200: #575757;
-    --base-100: #3D3D3D;
+    --base-content: #0C151D;
+    --primary: #F1F2F4;
+    --secondary: #A3ABB2;
+    --base-300: #0C151D;
+    --base-200: #171F26;
+    --base-100: #A3ABB2;
+    --icon-base: #575757;
 }
+
